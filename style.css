@@ -1,0 +1,141 @@
+/* para evitar el margen de 10px por defecto en el body */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 260px;
+    background-image: url(realmadridheader2.webp);
+    background-position: 30% 30%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+h2{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 1px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none; 
+    margin-right:40px ;
+    color: white;
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+li:hover{
+color: rgb(2, 8, 2);
+background-color: rgb(206, 203, 199);
+}
+body{
+    background-color: rgb(206, 203, 199);
+}
+nav{
+    margin-top: 30px;
+}
+section{
+    background-color: rgb(171, 175, 171);
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px; 
+}
+article{
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    text-indent: 14px;
+    min-height: 190px;
+    text-align: justify;    
+    width: 97%;
+    font-size: 15px;
+}
+aside{
+    background-color: rgba(0, 0, 0, 0.904);
+    font-size: 15px;
+    font-display: center;
+    color: #ffffff  ;
+    width: 230%;
+    border: 1px solid black;
+    min-height: 190px;
+}
+.deportes article{
+    display: flex;
+}
+.contenidodeportes{
+    display: flex;
+}
+article, aside{
+    padding: 10px;
+}
+.cuerpotexto{
+    margin-right: 10px;
+}
+.imagenarticulo{
+    width: 200%;
+    min-height: 190px;
+    background-image: url(mbappé.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.endrickrealsociedad{
+    width: 200%;
+    min-height: 190px;
+    background-image: url(endrickagainstrealsociedad.jpg);
+    background-size: cover;
+    background-position: center
+  }
+  .judebellinghamaitana{
+    width: 200%;
+    min-height: 190px;
+    background-image: url(judeaitana2.webp);
+    background-size: cover;
+    background-position: center
+  } 
+  .maldini{
+    width: 200%;
+    min-height: 190px;
+    background-image: url(maldini.webp);
+    background-size: cover;
+    background-position: center
+  } 
+/* footer{
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+    padding: 5px;
+
+} */
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 14px;
+  }
